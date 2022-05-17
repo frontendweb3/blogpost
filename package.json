@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "A simple starter project for playing around with Tailwind in a proper PostCSS environment.",
+  "main": "/public/index.html",
+  "scripts": {
+    "tailwind": "tailwindcss  -i ./css/main.css -o ./public/build/tailwind.css --minify  & live-server ./public ",
+    "dev": " live-server ./public & postcss css/main.css -o public/build/tailwind.css --minify --watch  ",
+    "start": "live-server ./public ",
+    "build": "postcss css/main.css -o public/build/tailwind.css --minify"
+},
+
+"devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "concurrently": "^7.1.0",
+    "cssnano": "^5.1.7",
+    "live-server": "^1.2.1",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.23"
+},
+  "author": "Rajdeep Singh",
+  "license": "ISC"
+}

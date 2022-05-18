@@ -12,9 +12,6 @@ module.exports = {
         "11xl": ["14.8rem", { lineHeight: "1.3" }],
         "10xl": "12rem",
         ...defaultTheme.fontSize
-      },
-      backgroundImage: {
-        'post': "url('/assets/Images/desert.jpg')"
       }
     }
   },

@@ -13,6 +13,7 @@
 </head>
 
 <body class="bg-white dark:bg-black dark:text-white antialiased scroll-smooth">
+  <!--  header -->
   <header
     class="flex dark:bg-black dark:text-white w-full flex-row px-2 xs:px-2 sm:px-2 md:px-10 lg:px-20 xl:px-20 xl:px-20 2xl:px-20 p-5 xs:p-3 sm:p-3 md:p-5 lg:px-5 xl:p-5 xl:p-6 2xl:p-6 justify-around content-center m-auto">
     <button id="navbar-icon" class="focus:outline-none">
@@ -59,6 +60,7 @@
     </div>
   </header>
 
+  <!--  navbar -->
   <div id="navOpen" class="hidden bg-blue-400 text-white w-full h-screen overflow-y-scroll fixed top-0 left-0">
     <button id="closeIcon" class="m-10 focus:outline-none">
       <svg width="30" height="20" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -104,7 +106,8 @@
         <li class="text-left"><a href="pages/contact.html" target="_blank"> Contact</a></li>
       </ul>
     </nav>
-  </div> 
+  </div>
+  <!-- second navbar -->
   <div class='bg-blue-400 text-white p-5'>
 
     <ul class="grid  grid-flow-col">
@@ -115,7 +118,7 @@
         <a target="_blank" href="tag.html">Reactjs</a>
       </li>
       <li class="w-36 text-center mx-2 text-base xs:text-lg sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg">
-        <a  target="_blank" href="tag.html">Nextjs</a>
+        <a target="_blank" href="tag.html">Nextjs</a>
       </li>
 
       <li class="w-36 text-center mx-2 text-base xs:text-lg sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg">
@@ -127,6 +130,7 @@
       </li>
     </ul>
   </div>
+  <!-- main -->
   <main class="flex flex-col dark:bg-black dark:text-white">
 
     <!-- ads Section -->
@@ -183,11 +187,14 @@
         </div>
       </div>
 
-      <div class="p-2 my-10 bg-[url('/assets/Images/desert.jpg')] bg-origin-border bg-fixed	bg-transparent bg-cover bg-no-repeat bg-center	h-[38rem] w-full"></div>
+      <div
+        class="p-2 my-10 bg-[url('/assets/Images/desert.jpg')] bg-origin-border bg-fixed	bg-transparent bg-cover bg-no-repeat bg-center	h-[38rem] w-full">
+      </div>
 
       <!-- article body -->
       <div class="m-auto p-2 my-10 w-10/12">
-        <h2 class="text-xl xs:text-xl sm:text-1xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">What is Lorem ipsum? </h2>
+        <h2 class="text-xl xs:text-xl sm:text-1xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">What is Lorem ipsum?
+        </h2>
 
         <p>
           test Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
@@ -333,7 +340,7 @@
         </p>
       </div>
 
-       <!-- article body end -->
+      <!-- article body end -->
 
     </article>
 
@@ -342,12 +349,12 @@
       Read comments
     </button>
 
-      <!-- ads Section -->
-      <div class="container bg-red-400 m-auto p-12 justify-center items-center content-center flex my-16 w-5/6">
-        <h1 class="text-white text-center text-4xl m-auto">
-          Ads Section.
-        </h1>
-      </div>
+    <!-- ads Section -->
+    <div class="container bg-red-400 m-auto p-12 justify-center items-center content-center flex my-16 w-5/6">
+      <h1 class="text-white text-center text-4xl m-auto">
+        Ads Section.
+      </h1>
+    </div>
 
     <div id="commentOpen" class="hidden m-auto my-16 w-10/12">
       <h2 class="my-10 m-auto text-left text-xl xs:text-1xl sm:text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl">
@@ -360,17 +367,18 @@
       </p>
 
       <div class="mt-5 bg-blue-400 px-5 py-10 grid grid-cols-1 gap-5	 grid-rows-4">
-        <div class="grid grid-rows-1 gap-5 grid-cols-1 sm:grid-cols-1 sm:grid-rows-1 md:grid-cols-2 md:grid-rows-1 lg:grid-cols-2 lg:grid-rows-1"> 
-          <input class="h-10 p-2"   type="text" name="name" placeholder="First Name" id="name" />
-          <input class="h-10 p-2"   type="text" name="last" placeholder="Last Name" id="name" />
+        <div
+          class="grid grid-rows-1 gap-5 grid-cols-1 sm:grid-cols-1 sm:grid-rows-1 md:grid-cols-2 md:grid-rows-1 lg:grid-cols-2 lg:grid-rows-1">
+          <input class="h-10 p-2" type="text" name="name" placeholder="First Name" id="name" />
+          <input class="h-10 p-2" type="text" name="last" placeholder="Last Name" id="name" />
         </div>
-        <input class="h-10 p-2"  type="email" placeholder="Email" id="email" />
-        <textarea id="message" name="message" placeholder="Message" rows="3" cols="50" > </textarea>
-        <button id="button"  class="bg-white h-12"> Submit </button>
+        <input class="h-10 p-2" type="email" placeholder="Email" id="email" />
+        <textarea id="message" name="message" placeholder="Message" rows="3" cols="50"> </textarea>
+        <button id="button" class="bg-white h-12"> Submit </button>
       </div>
     </div>
 
-  
+
 
     <h2 class="mt-20 m-auto text-left w-5/6 text-xl xs:text-1xl sm:text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl">
       Read more
@@ -520,45 +528,46 @@
   </div>
 
 
-<!-- Footer -->
-<footer
-class="flex flex-col my-5 justify-around sm:flex-col  md:flex-col lg:flex-row xl:flex-row 2xl:flex-row p-5 dark:bg-black dark:text-white">
-<h2 class="text-sm">Copy Right By Rajdeep singh</h2>
+  <!-- Footer -->
+  <footer
+    class="flex flex-col my-5 justify-around sm:flex-col  md:flex-col lg:flex-row xl:flex-row 2xl:flex-row p-5 dark:bg-black dark:text-white">
+    <h2 class="text-sm">Copy Right By Rajdeep singh</h2>
 
-<ul
-  class=" sm:mt-8 md:mt-6 lg:mt-0 xl:mt-0 2xl:mt-0 grid grid-cols-2 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-flow-col xl:grid-flow-col 2xl:grid-flow-col">
-  <li class=" text-center mx-2 text-sm">
-    <a href="#">Latest Post</a>
-  </li>
-  <li class=" text-center mx-2 text-sm">
-    <a href="https://facebook.com/officialrajdeepsingh">Facebook</a>
-  </li>
-  <li class=" text-center mx-2 text-sm">
-    <a href="https://twitter.com/Official_R_deep">Twitter</a>
-  </li>
+    <ul
+      class=" sm:mt-8 md:mt-6 lg:mt-0 xl:mt-0 2xl:mt-0 grid grid-cols-2 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-flow-col xl:grid-flow-col 2xl:grid-flow-col">
+      <li class=" text-center mx-2 text-sm">
+        <a href="#">Latest Post</a>
+      </li>
+      <li class=" text-center mx-2 text-sm">
+        <a href="https://facebook.com/officialrajdeepsingh">Facebook</a>
+      </li>
+      <li class=" text-center mx-2 text-sm">
+        <a href="https://twitter.com/Official_R_deep">Twitter</a>
+      </li>
 
-  <li class=" text-center mx-2 text-sm">
-    <a href="pages/termconditions.html">Term and Conditions</a>
-  </li>
+      <li class=" text-center mx-2 text-sm">
+        <a href="pages/termconditions.html">Term and Conditions</a>
+      </li>
 
-  <li class=" text-center mx-2 text-sm">
-    <a href="pages/disclaimer.html">Disclalmer</a>
-  </li>
+      <li class=" text-center mx-2 text-sm">
+        <a href="pages/disclaimer.html">Disclalmer</a>
+      </li>
 
-  <li class=" text-center mx-2 text-sm">
-    <a href="pages/privacypolicy.html">Privacy Policy</a>
-  </li>
+      <li class=" text-center mx-2 text-sm">
+        <a href="pages/privacypolicy.html">Privacy Policy</a>
+      </li>
 
-  <li class=" text-center mx-2 text-sm">
-    <a href="author.html">About</a>
-  </li>
+      <li class=" text-center mx-2 text-sm">
+        <a href="author.html">About</a>
+      </li>
 
-  <li class=" text-center mx-2 text-sm">
-    <a href="pages/contact.html">Contact</a>
-  </li>
-</ul>
-</footer>
+      <li class=" text-center mx-2 text-sm">
+        <a href="pages/contact.html">Contact</a>
+      </li>
+    </ul>
+  </footer>
 
+  <!-- botton or footer banner -->
   <div id="bannerCondition" class="hidden h-14 w-full p-4 bg-black  sticky left-0 bottom-0">
     <div
       class="m-auto w-5/6 xs:w-5/6 sm:w-4/6 md:w-4/6 lg:w-4/6 xl:w-4/6 2xl:w-4/6 flex flex-col xs:flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row justify-between">

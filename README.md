@@ -1,5 +1,5 @@
 # Tailwind CSS Playground
-Blogpost is simple lightweight templete for blog. you can start blogpost template. we use `live-server`, `tailwindcss`,`postcss` and `postcss-cli` npm package in blogpost.
+Blogpost is simple lightweight html template for blog. you can start blogpost template. we use `live-server`, `tailwindcss`,`postcss` and `postcss-cli` npm package in blogpost.
 
 ## DEMO
 ![blogpost template](./public/assets/Images/blogpost.png "Blog post")

@@ -37,11 +37,11 @@ checkMoonClickIcon.addEventListener("click", function () {
 
   if (themeData) {
     changeonImageIcon.src =
-      "https://b2y8vh.sse.codesandbox.io/assets/Icons/moon.svg";
+      "assets/Icons/moon.svg";
     localStorage.theme = "dark";
   } else {
     changeonImageIcon.src =
-      "https://b2y8vh.sse.codesandbox.io/assets/Icons/sun.svg";
+      "assets/Icons/sun.svg";
     localStorage.theme = "light";
   }
 });

@@ -531,6 +531,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
 .my-16 {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -641,10 +645,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-4 {
   height: 1rem;
 }
+.h-5\/6 {
+  height: 83.333333%;
+}
 .h-min {
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
+}
+.h-1 {
+  height: 0.25rem;
 }
 .h-28 {
   height: 7rem;
@@ -652,8 +662,29 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-full {
   height: 100%;
 }
-.h-5\/6 {
-  height: 83.333333%;
+.h-\[\] {
+  height: ;
+}
+.h-\[350px\] {
+  height: 350px;
+}
+.h-\[32rem\] {
+  height: 32rem;
+}
+.h-\[2rem\] {
+  height: 2rem;
+}
+.h-\[52rem\] {
+  height: 52rem;
+}
+.h-\[42rem\] {
+  height: 42rem;
+}
+.h-\[382rem\] {
+  height: 382rem;
+}
+.h-\[38rem\] {
+  height: 38rem;
 }
 .w-full {
   width: 100%;
@@ -811,11 +842,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(148 163 184 / var(--tw-bg-opacity));
 }
+.bg-transparent {
+  background-color: transparent;
+}
+.bg-\[url\(\'\/assets\/Images\/desert\.jpg\'\)\] {
+  background-image: url('/assets/Images/desert.jpg');
+}
 .bg-cover {
   background-size: cover;
 }
+.bg-fixed {
+  background-attachment: fixed;
+}
 .bg-center {
   background-position: center;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+.bg-origin-border {
+  background-origin: border-box;
 }
 .p-5 {
   padding: 1.25rem;

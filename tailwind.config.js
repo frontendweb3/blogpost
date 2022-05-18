@@ -1,5 +1,4 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
-// const { colors } = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: ["./public/**/*.{html,js}"],
@@ -14,8 +13,8 @@ module.exports = {
         "10xl": "12rem",
         ...defaultTheme.fontSize
       },
-      colors:{
-        liteblue :"#caf3ff;",
+      backgroundImage: {
+        'post': "url('/assets/Images/desert.jpg')"
       }
     }
   },

@@ -33,7 +33,7 @@ To get started:
    yarn dev
    ```
 
-   Now you should be able to see the project running at localhost:8080.
+   Now you should be able to see the project running at localhost:8080 in your browser.
 
 4. Open `public/index.html` in your editor and start experimenting!
 

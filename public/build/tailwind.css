@@ -482,12 +482,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bottom-0 {
   bottom: 0px;
 }
-.left-5 {
-  left: 1.25rem;
-}
-.right-5 {
-  right: 1.25rem;
-}
 .m-auto {
   margin: auto;
 }
@@ -529,13 +523,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
+}
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .my-16 {
   margin-top: 4rem;
@@ -673,6 +667,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-20 {
   width: 5rem;
 }
+.w-36 {
+  width: 9rem;
+}
 .w-5\/6 {
   width: 83.333333%;
 }
@@ -684,9 +681,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-24 {
   width: 6rem;
-}
-.w-36 {
-  width: 9rem;
 }
 .w-12 {
   width: 3rem;
@@ -888,6 +882,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-right {
   text-align: right;
 }
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -907,10 +905,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 .text-xs {
   font-size: 0.75rem;
@@ -991,11 +985,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 1.5rem;
   }
 
-  .xs\:my-8 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
   .xs\:my-16 {
     margin-top: 4rem;
     margin-bottom: 4rem;
@@ -1055,6 +1044,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 1rem;
   }
 
+  .xs\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .xs\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1062,11 +1056,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xs\:text-xl {
     font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .xs\:text-lg {
-    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 
@@ -1186,6 +1175,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 1rem;
   }
 
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1193,11 +1187,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:text-xl {
     font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .sm\:text-lg {
-    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 
@@ -1316,6 +1305,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 1rem;
   }
 
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1323,11 +1317,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:text-xl {
     font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .md\:text-lg {
-    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 
@@ -1555,6 +1544,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 1rem;
   }
 
+  .xl\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .xl\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -1568,11 +1562,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .xl\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .xl\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .xl\:text-6xl {
@@ -1669,6 +1658,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 1rem;
   }
 
+  .\32xl\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .\32xl\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
@@ -1682,11 +1676,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .\32xl\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .\32xl\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .\32xl\:text-8xl {

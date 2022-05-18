@@ -1,15 +1,15 @@
 # Tailwind CSS Playground
+Blogpost is simple lightweight templete for blog. you can start blogpost template. we use `live-server`, `tailwindcss`,`postcss` and `postcss-cli` npm package in blogpost.
 
-A simple starter project for playing around with Tailwind in a proper PostCSS environment.
 
 To get started:
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/tailwindcss/playground.git tailwindcss-playground
+   git clone hhttps://github.com/officialrajdeepsingh/blogpost
 
-   cd tailwindcss-playground
+   cd blogpost
    
    ```
 
@@ -27,32 +27,26 @@ To get started:
 
    ```bash
    # Using npm
-   npm run serve
+   npm run dev
 
    # Using Yarn
-   yarn serve
+   yarn dev
    ```
 
    Now you should be able to see the project running at localhost:8080.
 
 4. Open `public/index.html` in your editor and start experimenting!
 
-## Play with it on CodeSandbox
-
-A CodeSandbox version of this playground [is one click away](https://codesandbox.io/s/github/tailwindcss/playground/tree/master)!
-
-## Building for production
-
-Even though this isn't necessarily a starter kit for a proper project, we've included an example of setting up [cssnano](https://cssnano.co/) to optimize your CSS for production.
-
-To build an optimized version of your CSS, simply run:
+## Build the CSS production file
+You can build the CSS production file using `npm run buid` command.
 
 ```bash
 # Using npm
-npm run production
+npm run build
 
 # Using Yarn
-yarn production
-```
+yarn build
 
-After that's done, check out `./public/build/tailwind.css` to see the optimized output.
+```
+## Start local server 
+you can start local server using ` npm run start ` command.

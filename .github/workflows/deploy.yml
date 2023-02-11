@@ -32,7 +32,6 @@ jobs:
         if: runner.os == 'Linux'
         run: |
             ls -l
-           echo "$INPUT_PATH"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1

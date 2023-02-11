@@ -26,18 +26,18 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    steps:
-      - name: Archive artifact
-        shell: sh
-        if: runner.os == 'Linux'
-        run: |
-            ls -l
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+    steps:
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          name: public-folder-upload
-          path: public
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+          github_token: ${{ secrets.BLOGPOST_TOKEN }}
+          publish_dir: ./public
+      # - name: Upload artifact
+      #   uses: actions/upload-pages-artifact@v1
+      #   with:
+      #     name: public-folder-upload
+      #     path: public
+      # - name: Deploy to GitHub Pages
+      #   id: deployment
+      #   uses: actions/deploy-pages@v1

@@ -27,6 +27,13 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: Archive artifact
+        shell: sh
+        if: runner.os == 'Linux'
+        run: |
+            ls -l
+           echo "$INPUT_PATH"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

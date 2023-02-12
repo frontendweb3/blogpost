@@ -1,23 +1,26 @@
 {
   "name": "blogpost",
   "version": "1.0.0",
-  "description": "BlogPost templatre for blogging",
+  "description": "BlogPost template for blogging",
   "main": "/public/index.html",
   "scripts": {
     "tailwind": "tailwindcss  -i ./css/main.css -o ./public/build/tailwind.css --minify  & live-server ./public ",
     "dev": " live-server ./public & postcss css/main.css -o public/build/tailwind.css --minify --watch  ",
     "start": "live-server ./public ",
     "build": "postcss css/main.css -o public/build/tailwind.css --minify"
-},
-
-"devDependencies": {
+  },
+  "devDependencies": {
     "autoprefixer": "^10.4.4",
     "cssnano": "^5.1.7",
     "live-server": "^1.2.1",
     "postcss": "^8.4.12",
     "postcss-cli": "^9.1.0",
     "tailwindcss": "^3.0.23"
-},
+  },
   "author": "Rajdeep Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "tailwind-scrollbar": "^2.1.0"
+  }
 }

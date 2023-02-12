@@ -15,7 +15,7 @@
 <body class="bg-white dark:bg-black dark:text-white antialiased scroll-smooth">
   <!--  header -->
   <header
-    class="flex dark:bg-black dark:text-white w-full flex-row px-2 xs:px-2 sm:px-2 md:px-10 lg:px-20 xl:px-20 xl:px-20 2xl:px-20 p-5 xs:p-3 sm:p-3 md:p-5 lg:px-5 xl:p-5 xl:p-6 2xl:p-6 justify-around content-center m-auto">
+    class="flex dark:bg-black dark:text-white w-full flex-row px-2 xs:px-2 sm:px-2 md:px-10 lg:px-20 xl:px-20 2xl:px-20 p-5 xs:p-3 sm:p-3 md:p-5  2xl:p-6 justify-around content-center m-auto">
     <button id="navbar-icon" class="focus:outline-none">
       <img class="w-10 h-10" src="./assets/Icons/navIcon.svg" alt="nav icon" />
     </button>
@@ -110,7 +110,7 @@
   <!-- second navbar -->
   <div class='bg-blue-400 text-white p-5'>
 
-    <ul class="grid  grid-flow-col">
+    <ul class="grid  mx-auto scrollbar-thin scrollbar-thumb-neutral-100 scrollbar-track-transparent scrollbar-w-1 scrollbar-h-100 overflow-x-scroll max-w-min grid-flow-col">
       <li class="w-36  text-center mx-2 text-base xs:text-lg sm:text-lg md:text-lg lg:text-xl xl:text-lg 2xl:text-lg">
         <a target="_blank" href="tag.html">JavaScript</a>
       </li>
@@ -131,7 +131,7 @@
     </ul>
   </div>
   <!-- main -->
-  <main class="flex flex-col dark:bg-black dark:text-white">
+  <main class="flex mx-auto flex-col dark:bg-black dark:text-white">
 
     <!-- ads Section -->
     <div class="container bg-red-400 m-auto p-12 justify-center items-center content-center flex my-20 w-5/6">
@@ -140,55 +140,57 @@
       </h1>
     </div>
 
-    <article class="text-black bg-white w-6/6">
-      <!-- Heading section -->
-      <div class="m-auto mb-16 w-6/6 xs:w-5/6 sm:w-5/6 md:w-5/6 lg:w-5/6 xl:w-5/6 2xl:w-5/6">
-        <h1 class="text-gray-800 mt-8 text-3xl xs:text-4xl sm:text-4xl md:text-5xl xl:text-6xl 2xl:text-8xl">
-          How to create web stories on Ghost CMS
-        </h1>
-        <p class="text-gray-600 text-xl xs:text-xl sm:text-xl md:text-1xl xl:text-2xl 2xl:text-2xl">
-          The google web story helps websites to grow very fast. We enable AMP
-          web stories on your website for free in the post.
-        </p>
-      </div>
+    <!-- Heading section -->
+    <div class="m-auto mb-16 w-6/6 xs:w-5/6 sm:w-5/6 md:w-5/6 lg:w-5/6 xl:w-5/6 2xl:w-5/6">
+      <h1 class="text-gray-800 mt-8 text-3xl xs:text-4xl sm:text-4xl md:text-5xl xl:text-6xl 2xl:text-8xl">
+        How to create web stories on Ghost CMS
+      </h1>
+      <p class="text-gray-600 text-xl xs:text-xl sm:text-xl md:text-1xl xl:text-2xl 2xl:text-2xl">
+        The google web story helps websites to grow very fast. We enable AMP
+        web stories on your website for free in the post.
+      </p>
+    </div>
 
-      <!--  Author card -->
-      <div class="flex flex-row m-auto w-6/6 xs:w-5/6 sm:w-5/6 md:w-5/6 lg:w-5/6 xl:w-5/6 2xl:w-5/6">
-        <div class="bg-cover h-12 w-12 rounded-full bg-center bg-[url('https://blogpost-nine.vercel.app/assets/Images/author.jpg')]"></div>
+    <!--  Author card -->
+    <div class="flex flex-row m-auto w-6/6 xs:w-5/6 sm:w-5/6 md:w-5/6 lg:w-5/6 xl:w-5/6 2xl:w-5/6">
+      <div class="bg-cover h-12 w-12 rounded-full bg-center bg-[url('https://blogpost-nine.vercel.app/assets/Images/author.jpg')]"></div>
 
-        <div class="flex flex-col w-6/6 px-3">
-          <a href='/public/author.html' target='_blank'>
-            <h1 class="text-grey-800">Rajdeep Singh</h1>
-          </a>
-          <div class="flex flex-row justify-around content-center">
-            <p class="text-grey-600 text-xs xs:text-xs sm:text-xs md:text-sm lg:text-sm xl:text-sm 2xl:text-sm">
-              Feb 11, 2022
-            </p>
-            <p class="text-grey-600 mx-3 text-xs xs:text-xs sm:text-xs md:text-sm lg:text-sm xl:text-sm 2xl:text-sm">
-              .
-            </p>
-            <p class="text-grey-600 text-xs xs:text-xs sm:text-xs md:text-sm lg:text-sm xl:text-sm 2xl:text-sm ">
-              2 Min Read
-            </p>
-            <ul class=" flex-row justify-around hidden xs:hidden sm:hidden md:flex lg:flex xl:flex 2xl:flex">
-              <li class="mx-3 text-sm">
-                <a href=""><img class="h-4 w-4" src="./assets/Icons/facebook.svg" alt="Facebook " /></a>
-              </li>
-              <li class="mx-3 text-sm">
-                <a href=""><img class="h-4 w-4" src="./assets/Icons/twitter.svg" alt="Twiiter" /></a>
-              </li>
-              <li class="mx-3 text-sm">
-                <a href=""><img class="h-4 w-4" src="./assets/Icons/website.svg" alt="Website" /></a>
-              </li>
-            </ul>
-          </div>
+      <div class="flex flex-col w-6/6 px-3">
+        <a href='/public/author.html' target='_blank'>
+          <h1 class="text-grey-800">Rajdeep Singh</h1>
+        </a>
+        <div class="flex flex-row justify-around content-center">
+          <p class="text-grey-600 text-xs xs:text-xs sm:text-xs md:text-sm lg:text-sm xl:text-sm 2xl:text-sm">
+            Feb 11, 2022
+          </p>
+          <p class="text-grey-600 mx-3 text-xs xs:text-xs sm:text-xs md:text-sm lg:text-sm xl:text-sm 2xl:text-sm">
+            .
+          </p>
+          <p class="text-grey-600 text-xs xs:text-xs sm:text-xs md:text-sm lg:text-sm xl:text-sm 2xl:text-sm ">
+            2 Min Read
+          </p>
+          <ul class=" flex-row justify-around hidden xs:hidden sm:hidden md:flex lg:flex xl:flex 2xl:flex">
+            <li class="mx-3 text-sm">
+              <a href=""><img class="h-4 w-4" src="./assets/Icons/facebook.svg" alt="Facebook " /></a>
+            </li>
+            <li class="mx-3 text-sm">
+              <a href=""><img class="h-4 w-4" src="./assets/Icons/twitter.svg" alt="Twiiter" /></a>
+            </li>
+            <li class="mx-3 text-sm">
+              <a href=""><img class="h-4 w-4" src="./assets/Icons/website.svg" alt="Website" /></a>
+            </li>
+          </ul>
         </div>
       </div>
+    </div>
 
-      <div
-        class="p-2 my-10 bg-[url('/assets/Images/desert.jpg')] bg-origin-border bg-fixed	bg-transparent bg-cover bg-no-repeat bg-center	h-[38rem] w-full">
-      </div>
+    <div
+      class="p-2 my-10 bg-[url('/assets/Images/desert.jpg')] bg-origin-border bg-fixed	bg-transparent bg-cover bg-no-repeat bg-center	h-[38rem] w-full">
+    </div>
 
+
+    <article class="text-black bg-white w-6/6">
+      
       <!-- article body -->
       <div class="m-auto p-2 my-10 w-10/12">
         <h2 class="text-xl xs:text-xl sm:text-1xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">What is Lorem ipsum?
@@ -512,7 +514,7 @@
   <!-- newsletter confirm -->
   <!--  newsletter for Suceess -->
   <div
-    class="hidden bg-blue-400 text-white newsletter flex flex-col p-10 py-5 my-16 xs:my-16 sm:my-16 md:my-16 lg:my-20 xl:my-20 2xl:my-22">
+    class="hidden bg-blue-400 text-white newsletter sm:flex flex-col p-10 py-5 my-16 xs:my-16 sm:my-16 md:my-16 lg:my-20 xl:my-20 2xl:my-22">
     <h2 class="text-center my-10 text-2xl xs:text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-4xl">
       NEWSLETTER
     </h2>

@@ -1,6 +1,7 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
+  // darkMode: 'class',
   content: ["./public/**/*.{html,js}"],
   theme: {
     screens: {
@@ -16,5 +17,5 @@ module.exports = {
     }
   },
   variants: {},
-  plugins: []
+  plugins: [ require('@tailwindcss/typography'),require('tailwind-scrollbar')]
 };

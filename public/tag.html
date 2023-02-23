@@ -1,69 +1,119 @@
 <!DOCTYPE html>
 <html class="dark" lang="en">
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-  <link rel="stylesheet" href="./build/tailwind.css" />
-  <title>Tag page</title>
-</head>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+    <link rel="stylesheet" href="./build/tailwind.css"/>
+    <title>Tag page</title>
+  </head>
 
-<body class="bg-white dark:bg-black dark:text-white antialiased scroll-smooth">
+  <body class="bg-white dark:bg-black dark:text-white antialiased scroll-smooth">
 
     <!--  header  -->
     <header class="flex dark:bg-black dark:text-white w-full flex-row px-2 xs:px-2 sm:px-2 md:px-10 lg:px-20 xl:px-20 2xl:px-20 p-5 xs:p-3 sm:p-3 md:p-5  2xl:p-6  justify-between content-center m-auto">
 
       <a href="/" class="w-64 ">
-       <img class="w-30 h-8 m-auto dark:text-white" src="./assets/Icons/blogpost.svg" alt="website logo" />
+        <img class="w-30 h-8 m-auto dark:text-white" src="./assets/Icons/blogpost.svg" alt="website logo"/>
       </a>
-  
+
       <div class="flex flex-row justify-around">
-        
-        <ul
-          class="hidden m-auto sm:flex md:flex justify-around lg:flex xl:flex 2xl:flex md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
-  
+
+        <ul class="hidden mx-auto sm:flex md:flex justify-around lg:flex xl:flex 2xl:flex md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
+
           <li class="mx-2">
-            <a   href="./search.html"><img src="./assets/Icons/search.svg" alt=" serach icon" /></a>
+
+            <a href="./search.html">
+
+              <svg class="text-black dark:text-white" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.6154 10.1538C16.6154 8.375 15.9832 6.85337 14.7188 5.58894C13.4543 4.32452 11.9327 3.69231 10.1538 3.69231C8.375 3.69231 6.85337 4.32452 5.58894 5.58894C4.32452 6.85337 3.69231 8.375 3.69231 10.1538C3.69231 11.9327 4.32452 13.4543 5.58894 14.7188C6.85337 15.9832 8.375 16.6154 10.1538 16.6154C11.9327 16.6154 13.4543 15.9832 14.7188 14.7188C15.9832 13.4543 16.6154 11.9327 16.6154 10.1538ZM24 22.1538C24 22.6538 23.8173 23.0865 23.4519 23.4519C23.0865 23.8173 22.6538 24 22.1538 24C21.6346 24 21.2019 23.8173 20.8558 23.4519L15.9087 18.5192C14.1875 19.7115 12.2692 20.3077 10.1538 20.3077C8.77885 20.3077 7.46394 20.0409 6.20913 19.5072C4.95433 18.9736 3.8726 18.2524 2.96394 17.3438C2.05529 16.4351 1.33413 15.3534 0.800481 14.0986C0.266827 12.8438 0 11.5288 0 10.1538C0 8.77885 0.266827 7.46394 0.800481 6.20913C1.33413 4.95433 2.05529 3.8726 2.96394 2.96394C3.8726 2.05529 4.95433 1.33413 6.20913 0.800481C7.46394 0.266827 8.77885 0 10.1538 0C11.5288 0 12.8438 0.266827 14.0986 0.800481C15.3534 1.33413 16.4351 2.05529 17.3438 2.96394C18.2524 3.8726 18.9736 4.95433 19.5072 6.20913C20.0409 7.46394 20.3077 8.77885 20.3077 10.1538C20.3077 12.2692 19.7115 14.1875 18.5192 15.9087L23.4663 20.8558C23.8221 21.2115 24 21.6442 24 22.1538Z" fill="currentColor"/>
+              </svg>
+
+            </a>
+
+          </li>
+
+          <li class="mx-2">
+            <a href="https://facebook.com/officialrajdeepsingh">
+
+              <svg class="text-black dark:text-white" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 12H15" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+                <path d="M17 4H15C12.5 4 11 5.5 11 8V20" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+              </svg>
+
+            </a>
+          </li>
+
+          <li class="mx-2">
+            <a href="https://twitter.com/Official_R_deep">
+              <svg class="text-black dark:text-white" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23.643 4.93702C22.808 5.30702 21.911 5.55702 20.968 5.67002C21.941 5.08781 22.669 4.17148 23.016 3.09202C22.1019 3.63501 21.1014 4.01721 20.058 4.22202C19.3564 3.47288 18.4271 2.97634 17.4143 2.80949C16.4016 2.64264 15.3621 2.81481 14.4572 3.29927C13.5524 3.78373 12.8328 4.55338 12.4102 5.48872C11.9875 6.42406 11.8855 7.47277 12.12 8.47202C10.2677 8.37901 8.45564 7.89757 6.80144 7.05892C5.14723 6.22028 3.68785 5.04318 2.51801 3.60402C2.11801 4.29402 1.88801 5.09402 1.88801 5.94602C1.88757 6.71301 2.07644 7.46826 2.43789 8.14475C2.79934 8.82124 3.32217 9.39805 3.96001 9.82402C3.22029 9.80048 2.49688 9.6006 1.85001 9.24102V9.30102C1.84994 10.3768 2.22204 11.4194 2.90319 12.252C3.58434 13.0846 4.53258 13.6559 5.58701 13.869C4.9008 14.0547 4.18135 14.0821 3.48301 13.949C3.78051 14.8746 4.36001 15.684 5.14038 16.2639C5.92075 16.8438 6.86293 17.1652 7.83501 17.183C6.18485 18.4784 4.1469 19.1811 2.04901 19.178C1.67739 19.1781 1.30609 19.1564 0.937012 19.113C3.06649 20.4822 5.54535 21.2088 8.07701 21.206C16.647 21.206 21.332 14.108 21.332 7.95202C21.332 7.75202 21.327 7.55002 21.318 7.35002C22.2293 6.69099 23.0159 5.87491 23.641 4.94002L23.643 4.93702V4.93702Z" fill="currentColor"/>
+              </svg>
+            </a>
+          </li>
+
+          <li class="mx-2">
+            <a href="https://instagram.com/officialrajdeepsinghs">
+              <svg class="text-black dark:text-white" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.465 1.066C8.638 1.012 9.012 1 12 1C14.988 1 15.362 1.013 16.534 1.066C17.706 1.119 18.506 1.306 19.206 1.577C19.939 1.854 20.604 2.287 21.154 2.847C21.714 3.396 22.146 4.06 22.422 4.794C22.694 5.494 22.88 6.294 22.934 7.464C22.988 8.639 23 9.013 23 12C23 14.988 22.987 15.362 22.934 16.535C22.881 17.705 22.694 18.505 22.422 19.205C22.146 19.9391 21.7133 20.6042 21.154 21.154C20.604 21.714 19.939 22.146 19.206 22.422C18.506 22.694 17.706 22.88 16.536 22.934C15.362 22.988 14.988 23 12 23C9.012 23 8.638 22.987 7.465 22.934C6.295 22.881 5.495 22.694 4.795 22.422C4.06092 22.146 3.39582 21.7133 2.846 21.154C2.28638 20.6047 1.85331 19.9399 1.577 19.206C1.306 18.506 1.12 17.706 1.066 16.536C1.012 15.361 1 14.987 1 12C1 9.012 1.013 8.638 1.066 7.466C1.119 6.294 1.306 5.494 1.577 4.794C1.85372 4.06008 2.28712 3.39531 2.847 2.846C3.39604 2.2865 4.06047 1.85344 4.794 1.577C5.494 1.306 6.294 1.12 7.464 1.066H7.465ZM16.445 3.046C15.285 2.993 14.937 2.982 12 2.982C9.063 2.982 8.715 2.993 7.555 3.046C6.482 3.095 5.9 3.274 5.512 3.425C4.999 3.625 4.632 3.862 4.247 4.247C3.88205 4.60205 3.60118 5.03428 3.425 5.512C3.274 5.9 3.095 6.482 3.046 7.555C2.993 8.715 2.982 9.063 2.982 12C2.982 14.937 2.993 15.285 3.046 16.445C3.095 17.518 3.274 18.1 3.425 18.488C3.601 18.965 3.882 19.398 4.247 19.753C4.602 20.118 5.035 20.399 5.512 20.575C5.9 20.726 6.482 20.905 7.555 20.954C8.715 21.007 9.062 21.018 12 21.018C14.938 21.018 15.285 21.007 16.445 20.954C17.518 20.905 18.1 20.726 18.488 20.575C19.001 20.375 19.368 20.138 19.753 19.753C20.118 19.398 20.399 18.965 20.575 18.488C20.726 18.1 20.905 17.518 20.954 16.445C21.007 15.285 21.018 14.937 21.018 12C21.018 9.063 21.007 8.715 20.954 7.555C20.905 6.482 20.726 5.9 20.575 5.512C20.375 4.999 20.138 4.632 19.753 4.247C19.3979 3.88207 18.9657 3.60121 18.488 3.425C18.1 3.274 17.518 3.095 16.445 3.046V3.046ZM10.595 15.391C11.3797 15.7176 12.2534 15.7617 13.0669 15.5157C13.8805 15.2697 14.5834 14.7489 15.0556 14.0422C15.5278 13.3356 15.7401 12.4869 15.656 11.6411C15.572 10.7953 15.197 10.005 14.595 9.405C14.2112 9.02148 13.7472 8.72781 13.2363 8.54515C12.7255 8.36248 12.1804 8.29536 11.6405 8.34862C11.1006 8.40187 10.5792 8.57418 10.1138 8.85313C9.64846 9.13208 9.25074 9.51074 8.9493 9.96185C8.64786 10.413 8.45019 10.9253 8.37052 11.462C8.29084 11.9986 8.33115 12.5463 8.48854 13.0655C8.64593 13.5847 8.91648 14.0626 9.28072 14.4647C9.64496 14.8668 10.0938 15.1832 10.595 15.391ZM8.002 8.002C8.52702 7.47698 9.15032 7.0605 9.8363 6.77636C10.5223 6.49222 11.2575 6.34597 12 6.34597C12.7425 6.34597 13.4777 6.49222 14.1637 6.77636C14.8497 7.0605 15.473 7.47698 15.998 8.002C16.523 8.52702 16.9395 9.15032 17.2236 9.8363C17.5078 10.5223 17.654 11.2575 17.654 12C17.654 12.7425 17.5078 13.4777 17.2236 14.1637C16.9395 14.8497 16.523 15.473 15.998 15.998C14.9377 17.0583 13.4995 17.654 12 17.654C10.5005 17.654 9.06234 17.0583 8.002 15.998C6.94166 14.9377 6.34597 13.4995 6.34597 12C6.34597 10.5005 6.94166 9.06234 8.002 8.002V8.002ZM18.908 7.188C19.0381 7.06527 19.1423 6.91768 19.2143 6.75397C19.2863 6.59027 19.3248 6.41377 19.3274 6.23493C19.33 6.05609 19.2967 5.87855 19.2295 5.71281C19.1622 5.54707 19.0624 5.39651 18.936 5.27004C18.8095 5.14357 18.6589 5.04376 18.4932 4.97652C18.3275 4.90928 18.1499 4.87598 17.9711 4.87858C17.7922 4.88119 17.6157 4.91965 17.452 4.9917C17.2883 5.06374 17.1407 5.1679 17.018 5.298C16.7793 5.55103 16.6486 5.88712 16.6537 6.23493C16.6588 6.58274 16.7992 6.91488 17.0452 7.16084C17.2911 7.40681 17.6233 7.54723 17.9711 7.5523C18.3189 7.55737 18.655 7.42669 18.908 7.188V7.188Z" fill="currentColor"/>
+              </svg>
+            </a>
+          </li>
+
+          <li class="mx-2">
+            <a href="https://github.com/officialrajdeepsingh">
+
+              <svg class="text-black dark:text-white" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.37 0 0 5.37 0 12C0 17.31 3.435 21.795 8.205 23.385C8.805 23.49 9.03 23.13 9.03 22.815C9.03 22.53 9.015 21.585 9.015 20.58C6 21.135 5.22 19.845 4.98 19.17C4.845 18.825 4.26 17.76 3.75 17.475C3.33 17.25 2.73 16.695 3.735 16.68C4.68 16.665 5.355 17.55 5.58 17.91C6.66 19.725 8.385 19.215 9.075 18.9C9.18 18.12 9.495 17.595 9.84 17.295C7.17 16.995 4.38 15.96 4.38 11.37C4.38 10.065 4.845 8.985 5.61 8.145C5.49 7.845 5.07 6.615 5.73 4.965C5.73 4.965 6.735 4.65 9.03 6.195C9.99 5.925 11.01 5.79 12.03 5.79C13.05 5.79 14.07 5.925 15.03 6.195C17.325 4.635 18.33 4.965 18.33 4.965C18.99 6.615 18.57 7.845 18.45 8.145C19.215 8.985 19.68 10.05 19.68 11.37C19.68 15.975 16.875 16.995 14.205 17.295C14.64 17.67 15.015 18.39 15.015 19.515C15.015 21.12 15 22.41 15 22.815C15 23.13 15.225 23.505 15.825 23.385C18.2072 22.5807 20.2772 21.0497 21.7437 19.0074C23.2101 16.965 23.9993 14.5143 24 12C24 5.37 18.63 0 12 0Z" fill="currentColor"/>
+              </svg>
+            </a>
           </li>
           <li class="mx-2">
-            <a   href="https://facebook.com/officialrajdeepsingh"><img src="./assets/Icons/facebook.svg"
-                alt="facebook icon" /></a>
+            <a href="https://www.linkedin.com/in/officalrajdeepsingh/">
+
+              <svg width="24" class="text-black dark:text-white" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_48_17)">
+                  <path d="M6.201 21H1.84725V6.9795H6.201V21ZM4.0215 5.067C2.6295 5.067 1.5 3.9135 1.5 2.5215C1.5 1.85276 1.76566 1.2114 2.23853 0.73853C2.7114 0.265657 3.35276 0 4.0215 0C4.69024 0 5.3316 0.265657 5.80447 0.73853C6.27734 1.2114 6.543 1.85276 6.543 2.5215C6.543 3.9135 5.4135 5.067 4.0215 5.067ZM22.4955 21H18.1515V14.175C18.1515 12.5482 18.1185 10.4625 15.888 10.4625C13.6245 10.4625 13.2772 12.2295 13.2772 14.058V21H8.928V6.9795H13.1033V8.892H13.164C13.7453 7.79025 15.165 6.62775 17.283 6.62775C21.6893 6.62775 22.4993 9.5295 22.4993 13.2983V21H22.4955Z" fill="currentColor"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_48_17">
+                    <rect width="24" height="24" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
           </li>
-          <li class="mx-2">
-            <a   href="https://twitter.com/Official_R_deep"><img src="./assets/Icons/twitter.svg"
-                alt="twitter" /></a>
+
+          <li class="cursor-pointer mx-2">
+            <button id="theme-toggle" type="button">
+              
+              <svg id="theme-toggle-dark-icon" class="hidden w-5 h-6 text-black dark:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+              </svg>
+
+              <svg id="theme-toggle-light-icon" class="hidden w-5 h-6 text-black dark:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+              </svg>
+
+            </button>
+
           </li>
-          <li class="mx-2">
-            <a   href="https://instagram.com/officialrajdeepsinghs"><img src="./assets/Icons/instagram.svg"
-                alt="instagram" /></a>
-          </li>
-          <li class="mx-2">
-            <a   href="https://github.com/officialrajdeepsingh"><img src="./assets/Icons/github.svg"
-                alt="github" /></a>
-          </li>
-          <li class="mx-2">
-            <a   href="https://www.linkedin.com/in/officalrajdeepsingh/"><img
-                src="./assets/Icons/linkedin.svg" alt="Linkedin" /></a>
-          </li>
-          <li id="moonClickIcon" class="cursor-pointer mx-2">
-            <img id="changeImageIcon" src="./assets/Icons/moon.svg" alt="Enable dark mode" />
-          </li>
-  
+
         </ul>
-        
+
         <button class="focus:outline-none w-20 m-auto p-1 bg-blue-600 text-white items-center rounded-full">
           Pro
         </button>
-  
+
       </div>
-  
+
     </header>
-  
+
     <!-- second navbar -->
     <div class='bg-blue-400 text-white p-5'>
-  
+
       <ul class="pb-5 grid  mx-auto scrollbar-thin scrollbar-thumb-neutral-100 scrollbar-track-transparent scrollbar-w-1 scrollbar-h-100 overflow-x-scroll max-w-min grid-flow-col">
         <li class="w-36  text-center mx-2 text-base xs:text-lg sm:text-lg md:text-lg lg:text-xl xl:text-lg 2xl:text-lg">
           <a   href="tag.html">JavaScript</a>
@@ -74,420 +124,418 @@
         <li class="w-36 text-center mx-2 text-base xs:text-lg sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg">
           <a   href="tag.html">Nextjs</a>
         </li>
-  
+
         <li class="w-36 text-center mx-2 text-base xs:text-lg sm:text-lg md:text-lg lg:text-lg xl:text-lg 2xl:text-lg">
           <a   href="./pages/disclaimer.html">Disclalmer</a>
         </li>
-  
+
         <li class="w-36 text-center mx-2 text-base xs:text-lg sm:text-lg md:text-lg lg:text- xl:text-lg 2xl:text-lg">
           <a   href="./pages/privacypolicy.html">Privacy Policy</a>
         </li>
       </ul>
     </div>
 
-  <!-- main -->
-  <main class="flex flex-col dark:bg-black dark:text-white ">
+    <!-- main -->
+    <main class="flex flex-col dark:bg-black dark:text-white ">
 
-    <!-- Cover Section -->
+      <!-- Cover Section -->
 
-    <div class="container m-auto mt-32  mb-16  w-5/6 xs:w-5/6 sm:w-5/6 md:w-5/6 lg:w-5/6 xl:w-5/6 2xl:w-5/6">
-      <h1 class=" text-gray-800 text-4xl xs:text-5xl sm:text-6xl md:text-7xl xl:text-8xl 2xl:text-9xl"> JavaScript</h1>
+      <div class="container m-auto mt-32  mb-16  w-5/6 xs:w-5/6 sm:w-5/6 md:w-5/6 lg:w-5/6 xl:w-5/6 2xl:w-5/6">
+        <h1 class=" text-gray-800 text-4xl xs:text-5xl sm:text-6xl md:text-7xl xl:text-8xl 2xl:text-9xl"> JavaScript</h1>
 
-      <p class=" text-gray-600 text-xl xs:text-xl sm:text-xl md:text-1xl xl:text-2xl 2xl:text-2xl ">JavaScript is
+        <p class=" text-gray-600 text-xl xs:text-xl sm:text-xl md:text-1xl xl:text-2xl 2xl:text-2xl ">JavaScript is
         mordern lagauge to buid the web and mobile apps.
       </p>
 
-    </div>
+      </div>
 
-    <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
+      <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
 
-      <h6 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
+        <h6 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
         Feb 11, 2022
       </h6>
-      
-      <a href="./post.html">
-        <h1 class="text-3xl text-gray-800  xs:mt-2 sm:mt-2 md:mt-2 lg:mt-2 xl:mt-2 2xl:mt-2">
+
+        <a href="./post.html">
+          <h1 class="text-3xl text-gray-800  xs:mt-2 sm:mt-2 md:mt-2 lg:mt-2 xl:mt-2 2xl:mt-2">
           How to create web stories on Ghost CMS
         </h1>
-      </a>
+        </a>
 
-      <a href="./post.html">
-        <p class="text-sm text-gray-600 mt-0 xs:mt-0 sm:mt-0 md:mt-1 lg:mt-2 xl:mt-2 2xl:mt-2">
+        <a href="./post.html">
+          <p class="text-sm text-gray-600 mt-0 xs:mt-0 sm:mt-0 md:mt-1 lg:mt-2 xl:mt-2 2xl:mt-2">
           The google web story helps websites to grow very fast. We enable AMP
           web stories on your website for free in the post.
         </p>
-      </a>
+        </a>
 
-      <div class="flex flex-row mt-2">
+        <div class="flex flex-row mt-2">
 
-        <a href="./author.html">
-          <h5 class="text-sm text-gray-600">
+          <a href="./author.html">
+            <h5 class="text-sm text-gray-600">
             Gaylord warner
           </h5>
-        </a>
-        <h5 class="text-sm text-gray-600 ml-5 ">
+          </a>
+          <h5 class="text-sm text-gray-600 ml-5 ">
           6 Min read
         </h5>
 
+        </div>
       </div>
-    </div>
 
-    <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
-      <h6 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
+      <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
+        <h6 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
         Jan 14, 2022
       </h6>
-      <a href="./post.html">
-        <h1
+        <a href="./post.html">
+          <h1
           class="text-3xl text-gray-800  xs:mt-2 sm:mt-2 md:mt-2 lg:mt-2 xl:mt-2 2xl:mt-2">
           How to install chromium in ubuntu?
         </h1>
-      </a>
+        </a>
 
-      <a href="./post.html">
-        <p
+        <a href="./post.html">
+          <p
           class="text-sm text-gray-600 mt-0 xs:mt-0 sm:mt-0 md:mt-1 lg:mt-2 xl:mt-2 2xl:mt-2">
           Chromium is an open-source web browser for Linux users. you install
           chromium without the use of a third-party package manager in ubuntu.
         </p>
-      </a>
+        </a>
 
-      <div class="flex flex-row mt-2">
-        <a href="./author.html">
-          <h5 class="text-sm text-gray-600">
+        <div class="flex flex-row mt-2">
+          <a href="./author.html">
+            <h5 class="text-sm text-gray-600">
             Gaylord warner
           </h5>
-        </a>
-        <h5 class="text-sm text-gray-600 ml-5">
+          </a>
+          <h5 class="text-sm text-gray-600 ml-5">
           3 Min read
         </h5>
+        </div>
       </div>
-    </div>
 
-    <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
-      <h2 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
+      <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
+        <h2 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
         Dec 23, 2021
       </h2>
-      <a href="./post.html">
-        <h1
+        <a href="./post.html">
+          <h1
           class="text-3xl text-gray-800  xs:mt-2 sm:mt-2 md:mt-2 lg:mt-2 xl:mt-2 2xl:mt-2">
           How to install snap cli in raspberry pi 4?
         </h1>
-      </a>
+        </a>
 
-      <a href="./post.html">
-        <p
+        <a href="./post.html">
+          <p
           class="text-sm text-gray-600 mt-0 xs:mt-0 sm:mt-0 md:mt-1 lg:mt-2 xl:mt-2 2xl:mt-2">
           Snap command is a Linux base command-line utility help to install
           and manage all Linux base app in your Linux distro.
         </p>
-      </a>
+        </a>
 
-      <div class="flex flex-row mt-2">
-        <a href="./author.html">
-          <h5 class="text-sm text-gray-600">
+        <div class="flex flex-row mt-2">
+          <a href="./author.html">
+            <h5 class="text-sm text-gray-600">
             Gaylord warner
           </h5>
-        </a>
-        <h5 class="text-sm text-gray-600 ml-5">
+          </a>
+          <h5 class="text-sm text-gray-600 ml-5">
           4 Min Read
         </h5>
+        </div>
       </div>
-    </div>
 
-    <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
-      <h2 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
+      <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
+        <h2 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
         Dec 19, 2021
       </h2>
-      <a href="./post.html">
-        <h1
+        <a href="./post.html">
+          <h1
           class="text-3xl text-gray-800  xs:mt-2 sm:mt-2 md:mt-2 lg:mt-2 xl:mt-2 2xl:mt-2">
           How to install sublime text IDE in Raspberry pi 4?
         </h1>
-      </a>
+        </a>
 
-      <a href="./post.html">
-        <p
+        <a href="./post.html">
+          <p
           class="text-sm text-gray-600 mt-0 xs:mt-0 sm:mt-0 md:mt-1 lg:mt-2 xl:mt-2 2xl:mt-2">
           A sublime text editor is a lite weight IDE for raspberry pi 4. you
           can also install sublime text editor for all ecosystems like
           Windows, Mac, and ...
         </p>
-      </a>
+        </a>
 
-      <div class="flex flex-row mt-2">
-        <a href="./author.html">
-          <h5 class="text-sm text-gray-600">
+        <div class="flex flex-row mt-2">
+          <a href="./author.html">
+            <h5 class="text-sm text-gray-600">
             Gaylord warner
           </h5>
-        </a>
-        <h5 class="text-sm text-gray-600 ml-5">
+          </a>
+          <h5 class="text-sm text-gray-600 ml-5">
           2 Min read
         </h5>
+        </div>
       </div>
-    </div>
 
-    <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
-      <h2 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
+      <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
+        <h2 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
         Dec 18, 2021
       </h2>
-      <a href="./post.html">
-        <h1
+        <a href="./post.html">
+          <h1
           class="text-3xl text-gray-800  xs:mt-2 sm:mt-2 md:mt-2 lg:mt-2 xl:mt-2 2xl:mt-2">
           How to install sublime text IDE in Ubuntu?
         </h1>
-      </a>
+        </a>
 
-      <a href="./post.html">
-        <p
+        <a href="./post.html">
+          <p
           class="text-sm text-gray-600 mt-0 xs:mt-0 sm:mt-0 md:mt-1 lg:mt-2 xl:mt-2 2xl:mt-2">
           A sublime text editor is a lite weight IDE for all ecosystems like
           Windows, Mac, and Linux distro.
         </p>
-      </a>
+        </a>
 
-      <div class="flex flex-row mt-2">
-        <a href="./author.html">
-          <h5 class="text-sm text-gray-600">
+        <div class="flex flex-row mt-2">
+          <a href="./author.html">
+            <h5 class="text-sm text-gray-600">
             Gaylord warner
           </h5>
-        </a>
-        <h5 class="text-sm text-gray-600 ml-5">
+          </a>
+          <h5 class="text-sm text-gray-600 ml-5">
           5 Min read
         </h5>
+        </div>
       </div>
-    </div>
 
-    <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
-      <h2 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
+      <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
+        <h2 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
         Nov 30, 2021
       </h2>
-      <a href="./post.html">
-        <h1
+        <a href="./post.html">
+          <h1
           class="text-3xl text-gray-800  xs:mt-2 sm:mt-2 md:mt-2 lg:mt-2 xl:mt-2 2xl:mt-2">
           Install VLC Media player in Raspberry pi 4
         </h1>
-      </a>
+        </a>
 
-      <a href="./post.html">
-        <p
+        <a href="./post.html">
+          <p
           class="text-sm text-gray-600 mt-0 xs:mt-0 sm:mt-0 md:mt-1 lg:mt-2 xl:mt-2 2xl:mt-2">
           VLC media is free, open-source software to watch videos on raspberry
           pi 4 and any Linux distro. VLC provides a lot of features of users
           with an easily ...
         </p>
-      </a>
+        </a>
 
-      <div class="flex flex-row mt-2">
-        <a href="./author.html">
-          <h5 class="text-sm text-gray-600">
+        <div class="flex flex-row mt-2">
+          <a href="./author.html">
+            <h5 class="text-sm text-gray-600">
             Gaylord warner
           </h5>
-        </a>
-        <h5 class="text-sm text-gray-600 ml-5">
+          </a>
+          <h5 class="text-sm text-gray-600 ml-5">
           3 Min read
         </h5>
+        </div>
       </div>
-    </div>
 
-    <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
-      <h2 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
+      <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
+        <h2 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
         Nov 23, 2021
       </h2>
-      <a href="./post.html">
-        <h1
+        <a href="./post.html">
+          <h1
           class="text-3xl text-gray-800  xs:mt-2 sm:mt-2 md:mt-2 lg:mt-2 xl:mt-2 2xl:mt-2">
           Install VLC Media player in ubuntu
         </h1>
-      </a>
+        </a>
 
-      <a href="./post.html">
-        <p
+        <a href="./post.html">
+          <p
           class="text-sm text-gray-600 mt-0 xs:mt-0 sm:mt-0 md:mt-1 lg:mt-2 xl:mt-2 2xl:mt-2">
           VLC media is free, open-source software to watch videos on ubuntu
           and any Linux distro. VLC provides a lot of features of users with
           an easily ...
         </p>
-      </a>
+        </a>
 
-      <div class="flex flex-row mt-2">
-        <a href="./author.html">
-          <h5 class="text-sm text-gray-600">
+        <div class="flex flex-row mt-2">
+          <a href="./author.html">
+            <h5 class="text-sm text-gray-600">
             Gaylord warner
           </h5>
-        </a>
-        <h5 class="text-sm text-gray-600 ml-5">
+          </a>
+          <h5 class="text-sm text-gray-600 ml-5">
           3 Min Read
         </h5>
+        </div>
       </div>
-    </div>
 
-    <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
-      
-      <h2 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
+      <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
+
+        <h2 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
         Oct 29, 2021
       </h2>
-      <a href="./post.html">
-        <h1
+        <a href="./post.html">
+          <h1
           class="text-3xl text-gray-800  xs:mt-2 sm:mt-2 md:mt-2 lg:mt-2 xl:mt-2 2xl:mt-2">
           Install android studio in Raspberry pi 4
         </h1>
-      </a>
+        </a>
 
-      <a href="./post.html">
-        <p
+        <a href="./post.html">
+          <p
           class="text-sm text-gray-600 mt-0 xs:mt-0 sm:mt-0 md:mt-1 lg:mt-2 xl:mt-2 2xl:mt-2">
           The post describes if the possible way to Install android studio in
           raspberry pi 4.
         </p>
-      </a>
+        </a>
 
-      <div class="flex flex-row mt-2">
-        <a href="./author.html">
-          <h5 class="text-sm text-gray-600">
+        <div class="flex flex-row mt-2">
+          <a href="./author.html">
+            <h5 class="text-sm text-gray-600">
             Gaylord warner
           </h5>
-        </a>
-        <h5 class="text-sm text-gray-600 ml-5">
+          </a>
+          <h5 class="text-sm text-gray-600 ml-5">
           2 Min read
         </h5>
+        </div>
       </div>
-    </div>
 
-    <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
-      <h2 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
+      <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
+        <h2 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
         Oct 28, 2021
       </h2>
-      <a href="./post.html">
-        <h1
+        <a href="./post.html">
+          <h1
           class="text-3xl text-gray-800  xs:mt-2 sm:mt-2 md:mt-2 lg:mt-2 xl:mt-2 2xl:mt-2">
           Six trusted places where you Buy Linux laptops
         </h1>
-      </a>
+        </a>
 
-      <a href="./post.html">
-        <p
+        <a href="./post.html">
+          <p
           class="text-sm text-gray-600 mt-0 xs:mt-0 sm:mt-0 md:mt-1 lg:mt-2 xl:mt-2 2xl:mt-2">
           Linux manufacturers and distro show a major role in promoting Linux.
           Now Linux distro also targets beginner people with greater Ui.
           Various ...
         </p>
-      </a>
+        </a>
 
-      <div class="flex flex-row mt-2">
-        <a href="./author.html">
-          <h5 class="text-sm text-gray-600">
+        <div class="flex flex-row mt-2">
+          <a href="./author.html">
+            <h5 class="text-sm text-gray-600">
             Gaylord warner
           </h5>
-        </a>
-        <h5 class="text-sm text-gray-600 ml-5">
+          </a>
+          <h5 class="text-sm text-gray-600 ml-5">
           7 Min read
         </h5>
+        </div>
       </div>
-    </div>
 
-    <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
-      <h2 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
+      <div class="flex flex-col mx-auto p-6 mt-14 xs:mt-14 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-20 2xl:mt-22 w-11/12 sm:w-7/12">
+        <h2 class="text-sm text-gray-600 xs:text-md sm:text-md md:text-lg xl:text-xl 2xl:text-1xl">
         Oct 14, 2021
       </h2>
-      <a href="./post.html">
-        <h1
+        <a href="./post.html">
+          <h1
           class="text-3xl text-gray-800  xs:mt-2 sm:mt-2 md:mt-2 lg:mt-2 xl:mt-2 2xl:mt-2">
           How to install Filezilla on Raspberry pi 4?
         </h1>
-      </a>
+        </a>
 
-      <a href="./post.html">
-        <p
+        <a href="./post.html">
+          <p
           class="text-sm text-gray-600 mt-0 xs:mt-0 sm:mt-0 md:mt-1 lg:mt-2 xl:mt-2 2xl:mt-2">
           You Install FileZilla in raspberry pi 4 with a single command.
         </p>
-      </a>
+        </a>
 
-      <div class="flex flex-row mt-2">
-        <a href="./author.html">
-          <h5 class="text-sm text-gray-600">
+        <div class="flex flex-row mt-2">
+          <a href="./author.html">
+            <h5 class="text-sm text-gray-600">
             Gaylord warner
           </h5>
-        </a>
-        <h5 class="text-sm text-gray-600 ml-5">
+          </a>
+          <h5 class="text-sm text-gray-600 ml-5">
           2 Min read
         </h5>
+        </div>
       </div>
-    </div>
 
-    <a href="/tag.html" class="focus:outline-none text-center w-32  m-auto my-24 p-3 bg-blue-400  text-white items-center rounded-full">
+      <a href="/tag.html" class="focus:outline-none text-center w-32  m-auto my-24 p-3 bg-blue-400  text-white items-center rounded-full">
       Load More
     </a>
 
+    </main>
 
-  </main>
-
-
-  <!-- footer -->
-  <footer
+    <!-- footer -->
+    <footer
     class="flex flex-col my-5 justify-around sm:flex-col  md:flex-col lg:flex-row xl:flex-row 2xl:flex-row p-5 dark:bg-black dark:text-white">
-    <h2 class="text-sm">Copy Right By Frontendweb</h2>
+      <h2 class="text-sm">Copy Right By Frontendweb</h2>
 
-    <ul
+      <ul
       class=" sm:mt-8 md:mt-6 lg:mt-0 xl:mt-0 2xl:mt-0 grid grid-cols-2 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-flow-col xl:grid-flow-col 2xl:grid-flow-col">
-      <li class=" text-center mx-2 text-sm">
-        <a href="#">Latest Post</a>
-      </li>
-      <li class=" text-center mx-2 text-sm">
-        <a href="https://facebook.com/officialrajdeepsingh">Facebook</a>
-      </li>
-      <li class=" text-center mx-2 text-sm">
-        <a href="https://twitter.com/Official_R_deep">Twitter</a>
-      </li>
+        <li class=" text-center mx-2 text-sm">
+          <a href="#">Latest Post</a>
+        </li>
+        <li class=" text-center mx-2 text-sm">
+          <a href="https://facebook.com/officialrajdeepsingh">Facebook</a>
+        </li>
+        <li class=" text-center mx-2 text-sm">
+          <a href="https://twitter.com/Official_R_deep">Twitter</a>
+        </li>
 
-      <li class=" text-center mx-2 text-sm">
-        <a href="pages/termconditions.html">Term and Conditions</a>
-      </li>
+        <li class=" text-center mx-2 text-sm">
+          <a href="pages/termconditions.html">Term and Conditions</a>
+        </li>
 
-      <li class=" text-center mx-2 text-sm">
-        <a href="pages/disclaimer.html">Disclalmer</a>
-      </li>
+        <li class=" text-center mx-2 text-sm">
+          <a href="pages/disclaimer.html">Disclalmer</a>
+        </li>
 
-      <li class=" text-center mx-2 text-sm">
-        <a href="pages/privacypolicy.html">Privacy Policy</a>
-      </li>
+        <li class=" text-center mx-2 text-sm">
+          <a href="pages/privacypolicy.html">Privacy Policy</a>
+        </li>
 
-      <li class=" text-center mx-2 text-sm">
-        <a href="author.html">About</a>
-      </li>
+        <li class=" text-center mx-2 text-sm">
+          <a href="author.html">About</a>
+        </li>
 
-      <li class=" text-center mx-2 text-sm">
-        <a href="pages/contact.html">Contact</a>
-      </li>
-    </ul>
-  </footer>
+        <li class=" text-center mx-2 text-sm">
+          <a href="pages/contact.html">Contact</a>
+        </li>
+      </ul>
+    </footer>
 
-  <!-- botton or footer banner -->
-  <div id="bannerCondition" class="hidden h-14 w-full p-4 bg-black  sticky left-0 bottom-0">
-    <div
+    <!-- botton or footer banner -->
+    <div id="bannerCondition" class="hidden h-14 w-full p-4 bg-black  sticky left-0 bottom-0">
+      <div
       class="m-auto w-5/6 xs:w-5/6 sm:w-4/6 md:w-4/6 lg:w-4/6 xl:w-4/6 2xl:w-4/6 flex flex-col xs:flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row justify-between">
 
-      <p class="text-sm items-center text-white m-auto">
+        <p class="text-sm items-center text-white m-auto">
         Accept all the term and condition and <a href="/"> Read More </a>
-      </p>
+        </p>
 
-      <div
+        <div
         class="flex flex-row items-center justify-between w-4/4 xs:w-4/4 sm:w-4/4 md:w-2/4 lg:w-2/4 xl:w-2/4 2xl:w-2/4 my-6 xs:my-6 sm:my-6 md:my-6 lg:my-0 xl:my-0 2xl:my-0">
-        <button onclick="accpeptButton()"
+          <button onclick="accpeptButton()"
           class="text-sm focus:outline-none bg-white text-black p-1 w-24 h-10 items-center rounded-full">
           Accept
         </button>
 
-        <button class="text-sm focus:outline-none bg-white text-black p-1 w-24 h-10 items-center rounded-full">
+          <button class="text-sm focus:outline-none bg-white text-black p-1 w-24 h-10 items-center rounded-full">
           Reject
         </button>
 
+        </div>
       </div>
     </div>
-  </div>
 
-  <script src="./style.js"></script>
-
-</body>
+    <script src="./build/style.js"></script>
+    
+  </body>
 
 </html>

@@ -765,6 +765,10 @@ video {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
 }
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
 .my-16 {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -809,6 +813,9 @@ video {
 }
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+.mb-12 {
+  margin-bottom: 3rem;
 }
 .mb-16 {
   margin-bottom: 4rem;
@@ -928,6 +935,9 @@ video {
 .w-10\/12 {
   width: 83.333333%;
 }
+.w-11\/12 {
+  width: 91.666667%;
+}
 .w-12 {
   width: 3rem;
 }
@@ -1022,9 +1032,6 @@ video {
 .justify-around {
   justify-content: space-around;
 }
-.justify-evenly {
-  justify-content: space-evenly;
-}
 .justify-items-center {
   justify-items: center;
 }
@@ -1088,11 +1095,11 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-\[url\(\'\/assets\/Images\/desert\.jpg\'\)\] {
-  background-image: url('/assets/Images/desert.jpg');
+.bg-\[url\(\'https\:\/\/frontendweb3\.github\.io\/blogpost\/assets\/Images\/author\.jpg\'\)\] {
+  background-image: url('https://frontendweb3.github.io/blogpost/assets/Images/author.jpg');
 }
-.bg-\[url\(\'https\:\/\/blogpost-nine\.vercel\.app\/assets\/Images\/author\.jpg\'\)\] {
-  background-image: url('https://blogpost-nine.vercel.app/assets/Images/author.jpg');
+.bg-\[url\(\'https\:\/\/frontendweb3\.github\.io\/blogpost\/assets\/Images\/desert\.jpg\'\)\] {
+  background-image: url('https://frontendweb3.github.io/blogpost/assets/Images/desert.jpg');
 }
 .bg-cover {
   background-size: cover;
@@ -1165,6 +1172,9 @@ video {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
 .text-left {
   text-align: left;
 }
@@ -1222,6 +1232,10 @@ video {
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 .text-gray-600 {
   --tw-text-opacity: 1;
@@ -1531,6 +1545,9 @@ video {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+.prose-ul\:list-disc :is(:where(ul):not(:where([class~="not-prose"] *))) {
+  list-style-type: disc;
+}
 .hover\:bg-black:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -1539,17 +1556,13 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
-@media (prefers-color-scheme: dark) {
-
-  .dark\:bg-black {
-    --tw-bg-opacity: 1;
-    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-  }
-
-  .dark\:text-white {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-  }
+.dark .dark\:bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.dark .dark\:text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 @media (min-width: 375px) {
 
@@ -1707,6 +1720,10 @@ video {
 
   .sm\:w-5\/6 {
     width: 83.333333%;
+  }
+
+  .sm\:w-7\/12 {
+    width: 58.333333%;
   }
 
   .sm\:grid-cols-1 {

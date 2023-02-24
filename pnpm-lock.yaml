@@ -4,6 +4,7 @@ specifiers:
   '@tailwindcss/typography': ^0.5.9
   autoprefixer: ^10.4.4
   cssnano: ^5.1.7
+  flowbite-typography: ^1.0.3
   live-server: ^1.2.1
   postcss: ^8.4.12
   postcss-cli: ^9.1.0
@@ -17,6 +18,7 @@ dependencies:
 devDependencies:
   autoprefixer: 10.4.13_postcss@8.4.21
   cssnano: 5.1.14_postcss@8.4.21
+  flowbite-typography: 1.0.3_tailwindcss@3.2.6
   live-server: 1.2.2
   postcss: 8.4.21
   postcss-cli: 9.1.0_postcss@8.4.21
@@ -786,6 +788,17 @@ packages:
       - supports-color
     dev: true
 
+  /flowbite-typography/1.0.3_tailwindcss@3.2.6:
+    resolution: {integrity: sha512-UbdQFIIOb7xx2TS+QQrqr79B6ZSkSZurxYWzV0npth6Wns3/j7KfeDJoH9QFU+Zs7zjrvejNtyzgzWLWyCrdiA==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0 || insiders'
+    dependencies:
+      lodash.castarray: 4.4.0
+      lodash.isplainobject: 4.0.6
+      lodash.merge: 4.6.2
+      tailwindcss: 3.2.6_postcss@8.4.21
+    dev: true
+
   /for-in/1.0.2:
     resolution: {integrity: sha512-7EwmXrOjyL+ChxMhmG5lnW9MPt1aIeZEwKhQzoBUdTV0N3zuwWDZYVJatDvZ2OyzPUvdIAZDsCetk3coyMfcnQ==}
     engines: {node: '>=0.10.0'}
@@ -1183,11 +1196,9 @@ packages:
 
   /lodash.castarray/4.4.0:
     resolution: {integrity: sha512-aVx8ztPv7/2ULbArGJ2Y42bG1mEQ5mGjpdvrbJcJFU3TbYybe+QlLS4pst9zV52ymy2in1KpFPiZnAOATxD4+Q==}
-    dev: false
 
   /lodash.isplainobject/4.0.6:
     resolution: {integrity: sha512-oSXzaWypCMHkPC3NvBEaPHf0KsA5mvPrOPgQWDsbg8n7orZ290M0BmC/jgRZ4vcJ6DTAhjrsSYgdsW/F+MFOBA==}
-    dev: false
 
   /lodash.memoize/4.1.2:
     resolution: {integrity: sha512-t7j+NzmgnQzTAYXcsHYLgimltOV1MXHtlOWf6GjL9Kj8GK5FInw5JotxvbOs+IvV1/Dzo04/fCGfLVs7aXb4Ag==}
@@ -1195,7 +1206,6 @@ packages:
 
   /lodash.merge/4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
-    dev: false
 
   /lodash.uniq/4.5.0:
     resolution: {integrity: sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==}

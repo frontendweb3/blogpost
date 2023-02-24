@@ -17,5 +17,5 @@ module.exports = {
     }
   },
   variants: {},
-  plugins: [ require('@tailwindcss/typography'),require('tailwind-scrollbar')]
+  plugins: [ require('@tailwindcss/typography'),require('flowbite-typography'),require('tailwind-scrollbar')]
 };
